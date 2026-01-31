@@ -8,3 +8,10 @@ Key Features:Metabolic Calibration: Adjusting for Chicago winter temperatures (9
 Doppler Integration: Modeling the "Fear Shift" as buses approach vs. depart.
 
 Sensors used: Phyphox (Doppler/Frequency) and Decibel X (Amplitude).
+Parameter,Symbol,Value,Units / Description
+Hunger Level,f,11.5,Constant (Baseline metabolic state)
+Foraging Reward,h,6.8,Seed density in grams
+Metabolic Cost,p,10.0,Environmental stress at 9°F
+Salt Bonus,c,-4.6,Sodium-driven incentive
+Baseline Distance,x,32.0m,Measured distance from the road
+Bravery Score,R,0.268,Calculated intersection threshold
